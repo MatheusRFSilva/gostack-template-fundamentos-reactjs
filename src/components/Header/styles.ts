@@ -17,14 +17,22 @@ export const Container = styled.div<ContainerProps>`
     justify-content: space-between;
 
     nav {
+      width: 179px;
       a {
+        position: absolute;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        width: 71px;
+        height: 24px;
         color: #fff;
         text-decoration: none;
         font-size: 16px;
         transition: opacity 0.2s;
 
         & + a {
-          margin-left: 32px;
+          margin-left: 90px;
         }
 
         &:hover {
